@@ -68,6 +68,7 @@ section img {
     z-index: 2;
 }
 
+/* projects */
 #projects {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
@@ -78,6 +79,10 @@ section img {
     font-size: 40px;
 }
 
+.fit-image {
+    height: 100%;
+    width: 100%;
+}
 
 .title {
     font-size: 24px;
@@ -89,8 +94,18 @@ section img {
 }
 
 
-.col-sm-3 {
+.col-sm-4 {
     padding-right: 30px;
+}
+
+img {
+    margin-bottom: 15px;
+    transition: 0.8s ease;
+}
+
+img:hover {
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.8s ease;
 }
 
 .proj-text {
@@ -98,9 +113,6 @@ section img {
     text-decoration: none;
 }
 
-.proj-text {
-    color: white;
-}
 
 .proj-text a i {
     color: white;
@@ -110,4 +122,7 @@ section img {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    color: #fff
 }
+
+/* end of projects*/
